@@ -16,10 +16,10 @@ timezone:
 
 title: Yuji Go # the main title
 
-tagline: Storage # it will display as the sub-title
+tagline: Home Page # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Yuji Go's storage
+  Yuji Go's Home Page
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
