@@ -4,7 +4,6 @@ icon: fas fa-folder-open
 order: 3
 ---
 
-
 ## BSc Project: **Simulation on the Evanescent Scattering of Gold Nanoparticles.**
 
 <img src="{{site.baseurl}}/assets/img/bsc.gif" alt="bsc" width=500>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1069)"><rect width="1000" height="1000" fill="#ffffff"></rect><g transform="matrix(8,0,0,8,100,100)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100"><svg version="1.1" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 100 100" id="svg2" sodipodi:docname="noun-black-cat-707608.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25)" width="100" height="100" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview id="namedview2" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:zoom="1.888" inkscape:cx="50.052966" inkscape:cy="62.5" inkscape:window-width="1472" inkscape:window-height="891" inkscape:window-x="0" inkscape:window-y="37" inkscape:window-maximized="1" inkscape:current-layer="svg2" inkscape:export-bgcolor="#ffffff00"></sodipodi:namedview>
+  <defs id="defs1">
+    <g id="a">
+      <path fill="#000000" stroke="none" d="m 81.4,34.05 3.45,-15.3 q 1.4,-6.2 -3.65,-4.2 L 67.75,20 Q 60.15,15.25 50.7,14.9 38.65,15.25 30.9,20 L 17.6,14.55 Q 14.8,13.4 14,14.9 q -0.6,1.15 0,3.85 l 3.45,15.2 q -3.95,6.5 -5.7,14.2 -0.15,0.9 -0.3,1.9 -0.1,0.15 -0.1,0.3 L 5,86 H 95 L 87.8,50.35 q 0,-0.15 -0.05,-0.3 -1.75,-8.8 -6.35,-16 M 73,30.45 q 2.4,2.25 2.4,5.55 0,3.3 -2.4,5.5 -2.2,2.4 -5.5,2.4 -3.25,0 -5.65,-2.4 -2.2,-2.2 -2.2,-5.5 0,-3.3 2.2,-5.55 2.4,-2.3 5.65,-2.3 3.3,0 5.5,2.3 m -42.25,-2.3 q 3.25,0 5.5,2.3 2.4,2.25 2.4,5.55 0,3.3 -2.4,5.5 -2.25,2.4 -5.5,2.4 -3.3,0 -5.6,-2.4 -2.3,-2.2 -2.3,-5.5 0,-3.3 2.3,-5.55 2.3,-2.3 5.6,-2.3 m 12.55,11.8 q 0.0051,-0.03672 0,-0.1 0.0055,-0.617773 0.35,-1.1 0.03203,-0.04277 0.05,-0.1 0.444531,-0.345508 1.15,-0.35 h 8.85 q 0.854492,0.0061 1.15,0.45 0.454883,0.48418 0.45,1.1 v 0.1 q 0.03438,0.485352 -0.5,0.95 l -3.7,3.75 q -0.03477,0.04062 -0.1,0.05 -0.601172,0.439844 -1.2,0.55 v 1.95 l 3,3.05 q 0.148242,0.146484 0.15,0.35 -0.0021,0.206055 -0.15,0.35 -0.146289,0.148633 -0.35,0.15 -0.205664,-0.0023 -0.35,-0.15 L 49.3,48.1 46.45,50.95 Q 46.305273,51.098242 46.1,51.1 45.894727,51.0982 45.75,50.95 45.601758,50.805273 45.6,50.6 45.6018,50.394727 45.75,50.25 L 48.8,47.2 V 45.25 Q 48.161914,45.14707 47.5,44.7 47.48477,44.6906 47.45,44.65 l -3.7,-3.7 q -0.04414,-0.04512 -0.1,-0.1 -0.208594,-0.408398 -0.35,-0.9 m -8.9,-7.7 q -1.45,-1.5 -3.65,-1.5 -2.15,0 -3.6,1.5 -1.7,1.6 -1.7,3.75 0,2.15 1.7,3.6 1.45,1.65 3.6,1.65 2.2,0 3.65,-1.65 Q 36,38.15 36,36 36,33.85 34.4,32.25 M 72.8,36 q 0,-2.15 -1.65,-3.75 -1.5,-1.5 -3.65,-1.5 -2.2,0 -3.65,1.5 -1.6,1.6 -1.6,3.75 0,2.15 1.6,3.6 1.45,1.65 3.65,1.65 2.15,0 3.65,-1.65 1.65,-1.45 1.65,-3.6 z" id="path1"></path>
+    </g>
+  <clipPath id="SvgjsClipPath1069"><rect width="1000" height="1000" x="0" y="0" rx="350" ry="350"></rect></clipPath></defs>
+  <g id="g1">
+    <use xlink:href="#a" id="use1"></use>
+  </g>
+</svg></svg></g></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1070)"><rect width="1000" height="1000" fill="#ffffff"></rect><g transform="matrix(8,0,0,8,100,100)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100"><svg version="1.1" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 100 100" id="svg2" sodipodi:docname="noun-black-cat-707608.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25)" width="100" height="100" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview id="namedview2" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:zoom="1.888" inkscape:cx="50.052966" inkscape:cy="62.5" inkscape:window-width="1472" inkscape:window-height="891" inkscape:window-x="0" inkscape:window-y="37" inkscape:window-maximized="1" inkscape:current-layer="svg2" inkscape:export-bgcolor="#ffffff00"></sodipodi:namedview>
+  <defs id="defs1">
+    <g id="a">
+      <path fill="#000000" stroke="none" d="m 81.4,34.05 3.45,-15.3 q 1.4,-6.2 -3.65,-4.2 L 67.75,20 Q 60.15,15.25 50.7,14.9 38.65,15.25 30.9,20 L 17.6,14.55 Q 14.8,13.4 14,14.9 q -0.6,1.15 0,3.85 l 3.45,15.2 q -3.95,6.5 -5.7,14.2 -0.15,0.9 -0.3,1.9 -0.1,0.15 -0.1,0.3 L 5,86 H 95 L 87.8,50.35 q 0,-0.15 -0.05,-0.3 -1.75,-8.8 -6.35,-16 M 73,30.45 q 2.4,2.25 2.4,5.55 0,3.3 -2.4,5.5 -2.2,2.4 -5.5,2.4 -3.25,0 -5.65,-2.4 -2.2,-2.2 -2.2,-5.5 0,-3.3 2.2,-5.55 2.4,-2.3 5.65,-2.3 3.3,0 5.5,2.3 m -42.25,-2.3 q 3.25,0 5.5,2.3 2.4,2.25 2.4,5.55 0,3.3 -2.4,5.5 -2.25,2.4 -5.5,2.4 -3.3,0 -5.6,-2.4 -2.3,-2.2 -2.3,-5.5 0,-3.3 2.3,-5.55 2.3,-2.3 5.6,-2.3 m 12.55,11.8 q 0.0051,-0.03672 0,-0.1 0.0055,-0.617773 0.35,-1.1 0.03203,-0.04277 0.05,-0.1 0.444531,-0.345508 1.15,-0.35 h 8.85 q 0.854492,0.0061 1.15,0.45 0.454883,0.48418 0.45,1.1 v 0.1 q 0.03438,0.485352 -0.5,0.95 l -3.7,3.75 q -0.03477,0.04062 -0.1,0.05 -0.601172,0.439844 -1.2,0.55 v 1.95 l 3,3.05 q 0.148242,0.146484 0.15,0.35 -0.0021,0.206055 -0.15,0.35 -0.146289,0.148633 -0.35,0.15 -0.205664,-0.0023 -0.35,-0.15 L 49.3,48.1 46.45,50.95 Q 46.305273,51.098242 46.1,51.1 45.894727,51.0982 45.75,50.95 45.601758,50.805273 45.6,50.6 45.6018,50.394727 45.75,50.25 L 48.8,47.2 V 45.25 Q 48.161914,45.14707 47.5,44.7 47.48477,44.6906 47.45,44.65 l -3.7,-3.7 q -0.04414,-0.04512 -0.1,-0.1 -0.208594,-0.408398 -0.35,-0.9 m -8.9,-7.7 q -1.45,-1.5 -3.65,-1.5 -2.15,0 -3.6,1.5 -1.7,1.6 -1.7,3.75 0,2.15 1.7,3.6 1.45,1.65 3.6,1.65 2.2,0 3.65,-1.65 Q 36,38.15 36,36 36,33.85 34.4,32.25 M 72.8,36 q 0,-2.15 -1.65,-3.75 -1.5,-1.5 -3.65,-1.5 -2.2,0 -3.65,1.5 -1.6,1.6 -1.6,3.75 0,2.15 1.6,3.6 1.45,1.65 3.65,1.65 2.15,0 3.65,-1.65 1.65,-1.45 1.65,-3.6 z" id="path1"></path>
+    </g>
+  <clipPath id="SvgjsClipPath1070"><rect width="1000" height="1000" x="0" y="0" rx="500" ry="500"></rect></clipPath></defs>
+  <g id="g1">
+    <use xlink:href="#a" id="use1"></use>
+  </g>
+</svg></svg></g></g></svg></g></svg>
