@@ -9,3 +9,4 @@ order: 1
 
 2. **<u>Go, Y.</u>**, Dutt, R., & Neophytou, N. (2025). **Theory of quasistatically screened electron-polar optical phonon scattering.** Physical Review B, 111(19). <a href="https://doi.org/10.1103/physrevb.111.195211" target="_blank">[link to PRB]</a>
 
+3. Dutt, R., Sahni, B., Zhao, Y., Go, Y., Akhtar, SEA., Kumar, A., Kukreti, S., Graziosi, P., Li, Z. and Neophytou, N. ‘Carrier scattering considerations and thermoelectric power factor of half-Heuslers,’ J. Mater. Chem. A, 2026, 14, 10332-10345, <a href="https://doi.org/10.1039/D5TA02998H" target="_blank">[link to JMC A]</a>
