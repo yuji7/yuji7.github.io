@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Publications</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>Publications</h1>
+
+<nav>
+    <a href="/">Home</a>
+</nav>
+
+{{range .}}
+<div class="publication">
+
+    <h3>{{.Title}}</h3>
+
+    <p>{{.Authors}}, {{.Journal}}</p>
+    <a href="{{.Link}}" target="_blank">
+        Read Paper
+    </a>
+    <details class="abstract-dropdown">
+        <summary>Show Abstract</summary>
+
+        <p class="abstract-text">
+            {{.Abstract}}
+        </p>
+    </details>
+
+</div>
+{{end}}
+
+</body>
+</html>

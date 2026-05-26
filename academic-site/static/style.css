@@ -1,0 +1,140 @@
+:root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #666;
+    --link: #0b63ce;
+    --card: #f5f5f5;
+}
+
+body.dark {
+    --bg: #121212;
+    --text: #eaeaea;
+    --muted: #aaaaaa;
+    --link: #4ea1ff;
+    --card: #1e1e1e;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+nav a {
+    margin-right: 15px;
+    color: var(--link);
+}
+
+.publication {
+    margin-bottom: 25px;
+}
+
+.publication-body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+.publication-meta {
+    color: var(--muted);
+}
+
+.abstract-dropdown {
+    margin-top: 10px;
+}
+
+.abstract-dropdown summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.abstract-dropdown summary:hover {
+    text-decoration: underline;
+}
+
+.abstract-text {
+    margin-top: 10px;
+    padding: 12px;
+    background: var(--card);
+    border-radius: 8px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+/* Left side */
+.hero-text {
+    flex: 1;
+}
+
+/* Right side image */
+.hero-image img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;  /* makes it circular */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+
+@media (max-width: 700px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+.toc {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    gap: 10px 20px;
+}
+
+.toc a {
+    text-decoration: none;
+    color: var(--link);
+    font-weight: 500;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 60px 0;
+    max-width: 800px;
+    margin: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.email-copy {
+    color: var(--link);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.email-copy:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yuji Go's webpage</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<script>
+function copyEmail() {
+    const email = "yuji.go@warwick.ac.uk";
+
+    navigator.clipboard.writeText(email).then(() => {
+        // optional visual feedback
+        const el = document.querySelector(".email-copy");
+        const oldText = el.textContent;
+
+        el.textContent = "Copied ✓";
+
+        setTimeout(() => {
+            el.textContent = oldText;
+        }, 1200);
+    }).catch(err => {
+        console.error("Copy failed:", err);
+    });
+}
+</script>
+
+<script>
+function toggleDarkMode() {
+    document.body.classList.toggle("dark");
+
+    // save preference
+    if (document.body.classList.contains("dark")) {
+        localStorage.setItem("theme", "dark");
+    } else {
+        localStorage.setItem("theme", "light");
+    }
+}
+
+// load saved theme on page load
+window.onload = function () {
+    if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark");
+    }
+};
+</script>
+
+<body>
+
+<div class="hero"> 
+
+    <div class = "hero-text">
+        <button onclick="toggleDarkMode()" class="dark-toggle">
+            Dark/Light
+        </button>
+        <h1>Yuji Go's webpage</h1>
+        <nav>
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        </nav>
+
+        <a href=/static/cv.pdf target = _blank>CV</a> &nbsp
+        <a href="https://scholar.google.com/citations?user=Tdo03P0AAAAJ&hl=en" target = _blank>Google Scholar</a> &nbsp
+        <a href="https://www.linkedin.com/in/yujig7/" target = _blank> Linkedin</a> 
+        <br>
+        Email: <span class="email-copy" onclick="copyEmail()">yuji.go@warwick.ac.uk</span>
+
+    </div>
+
+    <div class="hero-image">
+        <img src="/static/profile.png" alt="My photo">
+    </div>
+</div>
+
+<section id="about">
+    <h1>About Me</h1>
+    <p>
+    PhD Student in computational materials science at the University of Warwick
+    </p>
+    <p>
+    Research interests:
+    Thermoelectric materials, Spintronic devices, Electron/spin transport
+    </p>
+    <p>
+        Languages: Python, Fortran, Matlab, C++
+    </p>
+</section>
+
+
+
+<section id="publications">
+    <h1>Publications</h1>
+
+{{range .Publications}}
+<div class="publications">
+
+    <h2>{{.Title}}</h2>
+
+    <p>{{.Authors}}, {{.Journal}}</p>
+    <a href="{{.Link}}" target="_blank">
+        Read Paper
+    </a>
+    <details class="abstract-dropdown">
+        <summary>Show Abstract</summary>
+
+        <p class="abstract-text">
+            {{.Abstract}}
+        </p>
+    </details>
+
+</div>
+{{end}}
+</section>
+
+</body>
+</html>

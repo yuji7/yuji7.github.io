@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Impurity Band Formation as a Route to Thermoelectric Power Factor Enhancement in n-type XNiSn Half-Heuslers.",
+    "authors": "Quinn, R.J., Go, Y., Naden, A.B., Bojtor, A., Paráda, G., Shawon, A.K.M.A., Domosud, K., Refson, K., Zevalkink, A., Neophytou, N. and Bos, J.-W.G.",
+    "journal": "Adv. Phys. Res., 2400179, 2025",
+    "link": "https://doi.org/10.1002/apxr.202400179",
+    "abstract": "Bandstructure engineering is a key route for thermoelectric performance enhancement. Here, 20–50% Seebeck (S) enhancement is reported for XNiCuySn half-Heusler samples based on X = Ti. This novel electronic effect is attributed to the emergence of impurity bands of finite extent, due to the Cu dopants. Depending on the dispersion, extent, and offset with respect to the parent material, these bands are shown to enhance S to different degrees. Experimentally, this effect is controllable by the Ti content of the samples, with the addition of Zr/Hf gradually removing the enhancement. At the same time, the mobility remains largely intact, enabling power factors ≥3 mW m−1 K−2 near room temperature, increasing to ≥5 mW m−1 K−2 at high temperature. Combined with reduced thermal conductivity due to the Cu interstitials, this enables high average zT = 0.67–0.72 between 320 and 793 K for XNiCuySn compositions with ≥70% Ti. This work reveals the existence of a new route for electronic performance enhancement in n-type XNiSn materials that are normally limited by their single carrier pocket. In principle, impurity bands can be applied to other materials and provide a new direction for further development."
+  },
+  {
+    "title": "Theory of quasistatically screened electron-polar optical phonon scattering.",
+    "authors": "Go, Y., Dutt, R., & Neophytou, N",
+    "journal": "Physical Review B, 111(19)., 2025",
+    "link": "https://doi.org/10.1103/physrevb.111.195211",
+    "abstract": "The scattering of electrons with polar optical phonons (POP) is an important mechanism that limits electronic transport and determines electron mobility in polar materials. This is typically a stronger mechanism compared to nonpolar acoustic and optical phonon scattering and of similar strength to the Coulomb ionized impurity scattering. At high densities, on the other hand, the cloud of charge carriers screens the dipoles that are responsible for POP scattering and weakens the electron-POP scattering strength. However, in contrast to ionized impurity scattering, for which the well-known Brooks-Herring equation provides the scattering rates with the effect of screening included, for scattering with POP there is no such closed-form mathematical expression. In this work, we derive such an expression based on Fermi's golden rule, which would prove particularly useful in understanding electronic transport in complex crystal and complex band structure materials, in which electron-POP scattering could dominate electronic transport."
+  },
+  {
+    "title": "Carrier scattering considerations and thermoelectric power factor of half-Heuslers.",
+    "authors": "Dutt, R., Sahni, B., Zhao, Y., Go, Y., Akhtar, SEA., Kumar, A., Kukreti, S., Graziosi, P., Li, Z. and Neophytou, N.",
+    "journal": "J. Mater. Chem. A, 14, 10332-10345, 2026",
+    "link": "https://doi.org/10.1039/D5TA02998H",
+    "abstract": "The electronic and thermoelectric (TE) transport properties of 13 n-type and p-type half-Heusler alloys are computationally examined using Boltzmann transport. The electronic scattering times resulting from all relevant phonon interactions and ionized impurity scattering (IIS) are fully accounted for using ab initio extracted parameters. We find that at room temperature the average peak TE power factors (PFs) of all materials we examine reside between 5 and 10 mW mK−2. We also find that the combination of IIS and the long range polar optical phonon (POP) scattering is more influential in determining the electronic transport and PF over all other non-polar phonon interactions (acoustic and optical phonon transport). In fact, the combination of POP and IIS determines the thermoelectric power factor of the half-Heuslers examined on average by about 65%. The results highlight the crucial impact of Coulombic scattering processes (POP and IIS) on the TE properties of half-Heusler alloys and provide profound insight for understanding transport, which can be applied widely in other complex bandstructure materials. In terms of computation expense, the computationally cheaper POP and IIS provide an acceptable first-order estimate of the power factor of these materials, while the non-polar contributions, which require more expensive ab initio calculations, could be of secondary importance."
+  }
+]
